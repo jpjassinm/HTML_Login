@@ -1,0 +1,28 @@
+:root{
+--color_primario: #62C5F0;
+--color_secundario: #ffffff;
+}
+
+
+*{
+box-sizing: border-box;
+margin:0;
+padding:0;
+}
+
+html{
+background-color: var(--color_primario);
+
+}
+
+.main-div{
+width: 350px;
+height:460px;    
+justify-content: center;
+border-radius: 10px;
+justify-content:center;
+background-color: var(--color_secundario);
+-webkit-box-shadow: 10px 10px 85px 1px rgba(52,104,207,1);
+-moz-box-shadow: 10px 10px 85px 1px rgba(52,104,207,1);
+box-shadow: 10px 10px 85px 1px rgba(52,104,207,1);
+}
