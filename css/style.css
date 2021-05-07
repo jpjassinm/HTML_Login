@@ -1,6 +1,8 @@
 :root{
 --color_primario: #62C5F0;
+--sobra_color_porimario: rgb(30, 30, 180);
 --color_secundario: #ffffff;
+--color_fondo_campo: #d9dcdd;
 }
 
 
@@ -15,14 +17,54 @@ background-color: var(--color_primario);
 
 }
 
-.main-div{
+.main-div-form{
 width: 350px;
-height:460px;    
-justify-content: center;
-border-radius: 10px;
+height:390px;    
+border-radius: 10px 10px 0px 0px;
 justify-content:center;
 background-color: var(--color_secundario);
--webkit-box-shadow: 10px 10px 85px 1px rgba(52,104,207,1);
--moz-box-shadow: 10px 10px 85px 1px rgba(52,104,207,1);
-box-shadow: 10px 10px 85px 1px rgba(52,104,207,1);
+-webkit-box-shadow: 10px 10px 85px 1px var(--sobra_color_porimario);
+-moz-box-shadow: 10px 10px 85px 1px var(--sobra_color_porimario);
+box-shadow: 10px 10px 85px 1px var(--sobra_color_porimario);
+display:block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.main-div-footer{
+width: 350px;
+height:70px;  
+background-color: var(--color_fondo_campo);
+border-radius: 0px 0px 10px 10px;
+-webkit-box-shadow: 10px 47px 66px -4px var(--sobra_color_porimario);
+-moz-box-shadow: 10px 47px 66px -4px var(--sobra_color_porimario);
+box-shadow: 10px 47px 66px -4px var(--sobra_color_porimario);
+margin-left: auto;
+margin-right: auto;
+}
+
+.form-input{
+width:80%;
+height:40px;
+background-color: var(--color_fondo_campo);
+border-radius: 5px;
+border: 1px solid var(--color_fondo_campo);
+display:block;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.form-button{
+width:160px;
+height:40px;
+background-color: var(--color_primario);
+border-radius:5px;
+font:white;
+display:block;
+margin-left: auto;
+margin-right: auto;
+outline: none;
+
+
 }
