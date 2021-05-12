@@ -1,0 +1,18 @@
+/* Animacion css */
+
+.fadeIn{
+    -webkit-animation-duration:4s;
+    -webkit-animation-fill-mode:both;
+    -webkit-animation-name:fadeIn;
+}
+
+@keyframes fadeIn {
+    from{
+
+        opacity:0;     
+    } to {
+
+        opacity:1;
+    }
+    
+}

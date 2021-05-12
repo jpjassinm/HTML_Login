@@ -5,7 +5,6 @@
 --color_fondo_campo: #d9dcdd;
 }
 
-
 *{
 box-sizing: border-box;
 margin:0;
@@ -14,7 +13,11 @@ padding:0;
 
 html{
 background-color: var(--color_primario);
-
+font-family: 'Courier New', Courier, monospace;
+}
+ 
+main{
+display: flex;
 }
 
 .main-div-form{
@@ -52,7 +55,6 @@ border: 1px solid var(--color_fondo_campo);
 display:block;
 margin-left: auto;
 margin-right: auto;
-
 }
 
 .form-button{
@@ -64,7 +66,8 @@ font:white;
 display:block;
 margin-left: auto;
 margin-right: auto;
-outline: none;
-
-
+border:0;
+outline:0;
+color: white;
+font-weight: bold;
 }
